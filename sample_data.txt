@@ -1,0 +1,33 @@
+Sample User Data
+{
+  "username": "orlando",
+  "email": "orlando@gmail.com",
+  "password": "password1"
+}
+{
+  "username": "ameera",
+  "email": "ameera@gmail.com",
+  "password": "password2"
+}
+{
+  "username": "moriah",
+  "email": "moriah@gmail.com",
+  "password": "password3"
+}
+{
+  "username": "keivon",
+  "email": "keivon@gmail.com",
+  "password": "password4"
+}
+
+Posts Sample Data
+{
+  "title": "Node is awesome",
+  "post_url": "www.nodejs.com",
+  "user_id": "1",
+}
+{
+  "title": "JavaScript is awesome",
+  "post_url": "www.JavaScript.com",
+  "user_id": "2",
+}
