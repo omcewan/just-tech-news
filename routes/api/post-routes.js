@@ -41,7 +41,7 @@ router.get('/', (req, res) => {
     });
 });
 
-router.get('/:id', (req, res) => {
+router.get('/:id', (req, res) => { 
   Post.findOne({
     where: {
       id: req.params.id,
@@ -104,7 +104,7 @@ router.post('/', (req, res) => {
 // PUT /api/posts/upvote
 router.put('/upvote', (req, res) => {
   // custom static method created in models/Post.js
-  Post.upvote(req.body, { Vote })
+  Post.update(req.body, { Vote })
     .then((updatedPostData) => res.json(updatedPostData))
     .catch((err) => {
       console.log(err);
